@@ -5,9 +5,9 @@ import React from 'react'
 
 export default function AboutUs() {
   return (
-    <div className='w-full h-[100svh] relative'>
-        <div className='grid grid-cols-2 gap-5 grid-rows-2 px-20 items-center mx-auto pt-20'>
-            <div className='bg-red-400 overflow-hidden flex flex-col items-start justify-start'>
+    <div className='w-full h-[100svh]'>
+        <div className='grid grid-cols-2 gap-5 grid-rows-2 px-20 items-center mx-auto pt-20 relative'>
+            <div className='bg-red-400 overflow-hidden flex flex-col items-start justify-start sticky'>
                 <Image src="/images/about1.svg" 
                 alt='image1' 
                 height={50} 
@@ -24,7 +24,7 @@ export default function AboutUs() {
                 />
             </div>
             <div className='bg-green-400 flex flex-col items-start px-20 h-full'>
-                <div className='border-l-[1em] rounded-t-xl border-red-400 mt-10'>
+                <div className='border-l-[1em] rounded-l-2xl border-red-400 mt-10'>
                     <p className='text-4xl ml-5'>About Us</p>
                     <p className='text-lg ml-5'>Expert team</p>
                 </div>

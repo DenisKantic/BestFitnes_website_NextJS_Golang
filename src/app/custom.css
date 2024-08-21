@@ -1,0 +1,16 @@
+
+.clip-triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    clip-path: polygon(100% 0, 100% 100%,0 100%);
+    z-index: -1; /* Ensure the triangle is behind the content */
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #780505 0%, #DE0909 100%);
+}
+  
